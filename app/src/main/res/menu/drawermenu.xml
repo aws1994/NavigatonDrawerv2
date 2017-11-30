@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mn" android:title="My Network" android:icon="@drawable/ic_wifi_black_24dp" />
+<item android:id="@+id/postion" android:title="Position" android:icon="@drawable/ic_location_on_black_24dp"/>
+<item android:id="@+id/data" android:title="Data Usage" android:icon="@drawable/ic_trending_up_black_24dp" />
+<item android:id="@+id/addh" android:title="Add Hidden network" android:icon="@drawable/ic_add_black_24dp"/>
+<item android:id="@+id/Setting" android:title="Setting" android:icon="@drawable/ic_settings_black_24dp" />
+</menu>

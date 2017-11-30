@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demotxt.droidsrce.nd.MainActivity"
+    android:id="@+id/dl">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/flcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    </LinearLayout>
+<android.support.design.widget.NavigationView
+    app:headerLayout="@layout/header"
+    app:itemTextColor="#fff"
+    app:itemIconTint="#fff"
+    android:id="@+id/nv"
+    android:background="#015071"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    app:menu="@menu/drawermenu"
+android:layout_gravity="start"
+    >
+    <ImageView
+        android:layout_gravity="bottom"
+        android:background="@drawable/z"
+        android:layout_width="match_parent"
+        android:layout_height="54dp" />
+</android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
